@@ -2,7 +2,7 @@
 <html lang="zh">
 <head>
     <meta charset="UTF-8">
-    <title>作業09</title>
+    <title>作業10</title>
     <style>
         h4 {color:red;}
         div {color:blue;margin:5px;}
@@ -117,7 +117,10 @@
                  text += "</tr>";
             }
         }
-        text += "價格合計:" + sunToPay + "元<br>";
+        text += "<tr>";
+        text += "<td>""價格合計:""</td>";
+        text += "<td>"sunToPay"</td>";
+        text += "</tr>";
         document.getElementById("demo").innerHTML = text;
     }
     </table>
